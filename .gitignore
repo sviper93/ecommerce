@@ -7,10 +7,12 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
+# 3. Agrego el *.production para que todo archivo con esta extesión también sea excluida
 node_modules
 dist
 dist-ssr
 *.local
+*.production 
 
 # Editor directories and files
 .vscode/*
